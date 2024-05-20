@@ -3,6 +3,7 @@ import Header from './Components/Layout/Header';
 import Meals from './Components/Meals/Meals';
 import Cart from './Components/Cart/Cart';
 import CartProvider from './Components/Store/CartProvider';
+import Chatbot from './Chats';
 
 
 function App() {
@@ -25,6 +26,7 @@ const hidecartHandler=()=>{
         <Meals/>
       </main>
     </CartProvider>
+    <Chatbot/>
   );
 }
 
