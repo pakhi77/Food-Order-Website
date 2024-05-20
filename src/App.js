@@ -19,6 +19,7 @@ const hidecartHandler=()=>{
 };
 
   return (
+    <>
     <CartProvider>
       {cartIsShown && <Cart onClose={hidecartHandler}/>}
       <Header onShowCart={showCartHandler}/>
@@ -27,6 +28,7 @@ const hidecartHandler=()=>{
       </main>
     </CartProvider>
     <Chatbot/>
+    <>
   );
 }
 
